@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Contato</title>
+  </head>
+  <body>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="contato.html">Contato</a></li>
+      <li>
+        <a href="https://github.com/GasparLeonardi">Projetos</a>
+      </li>
+    </ul>
+
+    <h1>Entre em contato comigo</h1>
+
+    <form>
+      <div>
+        <label for="nome">Nome:</label>
+        <input type="nome" id="nome" onkeyup="validaNome()"/>
+        <div id="txtNome"></div>
+      </div>
+      <div>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" onkeyup="validaEmail()"/>
+        <div id="txtEmail"></div>
+      </div>
+      <div>
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" cols="60" rows="10" onkeyup="validaMensagem()"></textarea>
+        <div id="txtMensagem"></div>
+      </div>
+      <button onclick="enviar()">Enviar</button>
+    </form>
+
+    <div class="social">
+      <h2>Minhas redes sociais:</h2>
+      <a href="https://www.linkedin.com/in/gasparleonardi/">
+        <img alt="Icone LinkedIn" src="./assets/linked.png" />
+      </a>
+      <a href="https://github.com/GasparLeonardi">
+        <img alt="Icone Github" src="./assets/github.png" />
+      </a>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

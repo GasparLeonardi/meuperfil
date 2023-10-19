@@ -1,0 +1,180 @@
+/* Corpo */
+body {
+    font-family: Arial, sans-serif;
+    color: whitesmoke;
+    background-color: #513761;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Barra de navegação */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(106, 63, 105);
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(172, 117, 172);
+  }
+  
+  /* Cabeçalho */
+  h1 {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Texto do perfil */
+  p {
+    display: flex;
+    flex-flow: row;
+    margin-inline: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: justify;
+  }
+  
+  
+  /*Foto pessoal*/
+  img {
+    display: block;
+    margin: 20px auto;
+    max-width: 40%;
+    height: auto;
+    width: 360px;
+    margin: 80px;
+  }
+  
+.content {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+/* Texto pessoal */
+.content {
+    font-size: 25px;
+    margin: 50px;
+    text-align: justify;
+}
+
+/* Estilo para o formulário */
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  input {
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+  }
+  
+  button {
+    display: block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: rgb(106, 63, 105);
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: rgb(172, 117, 172);
+  }
+  
+  div {
+    text-align: center;
+  }
+  
+  div a {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  #nome {
+    width: 100%;
+  }
+  
+  #email {
+    width: 100%;
+  }
+  
+  .container {
+    padding: 30px;
+  }
+  
+  .social h2 {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: end;    /* Centraliza verticalmente */
+    margin-top: 120px;
+  }
+
+  .social {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;    /* Centraliza verticalmente */
+    margin-top: 20px; /* Espaçamento superior entre o formulário e os ícones */
+  }
+
+  .social img {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: end;    /* Centraliza verticalmente */
+  }
+
+  .social a {
+    margin: 0px;
+    border: 0px;
+    margin-top: 100px;
+  }
+
+  /*avisos*/
+  #txtNome {
+    text-align: start;
+    font-size: small;
+  }
+
+  #txtEmail {
+    text-align: start;
+    font-size: small;
+  }
+
+  #txtMensagem {
+    text-align: start;
+    font-size: small;
+  }
