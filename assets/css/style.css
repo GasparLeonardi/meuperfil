@@ -74,7 +74,7 @@ body {
     text-align: justify;
 }
 
-/* Estilo para o formulário */
+/* Form */
   form {
     max-width: 600px;
     margin: 0 auto;
@@ -136,7 +136,7 @@ body {
   .container {
     padding: 30px;
   }
-  
+  /*Icones rede social*/
   .social h2 {
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
@@ -163,7 +163,7 @@ body {
     margin-top: 100px;
   }
 
-  /*avisos*/
+  /*avisos JS do form*/
   #txtNome {
     text-align: start;
     font-size: small;
